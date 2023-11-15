@@ -12,14 +12,13 @@ const Navbar = () => {
     const logOut = async () => {
         setIsAuth(false);
         localStorage.removeItem('auth');
-        await authAPI.logout();
     }
     
     return (
         <div className="navbar">
             <div className="navbar__links">
                 <Link to='/about'>О сайте</Link>
-                {isAuth && <span style={{marginLeft:'15px'}}><MyButton onClick={logOut}>Выйти</MyButton></span>}
+                {isAuth && <span style={{marginLeft:'15px'}}><MyButton onClick={logOut} style={{color:'black', border: 'black 1px solid'}}>Выйти</MyButton></span>}
             </div>
         </div>
     )
