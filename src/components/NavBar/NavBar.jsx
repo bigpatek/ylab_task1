@@ -18,7 +18,7 @@ const Navbar = () => {
         <div className="navbar">
             <div className="navbar__links">
                 <Link to='/about'>О сайте</Link>
-                {isAuth && <span style={{marginLeft:'15px'}}><MyButton onClick={logOut} style={{color:'black', border: 'black 1px solid'}}>Выйти</MyButton></span>}
+                {isAuth && <span style={{marginLeft:'15px'}}><MyButton  onClick={logOut} style={{width:'100px'}}>Выйти</MyButton></span>}
             </div>
         </div>
     )

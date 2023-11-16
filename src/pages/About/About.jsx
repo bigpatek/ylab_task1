@@ -6,7 +6,7 @@ const About = () => {
     return(
         <div className={style.about}>   
             <p>Вы авторизованы</p>
-            <div>
+            <div className={style.about_content}>
                 <p>Cтраница в разработке....</p>
                 <Loader/>
             </div>

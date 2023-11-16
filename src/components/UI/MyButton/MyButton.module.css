@@ -1,8 +1,19 @@
-.myBtn{
-    padding: 5px 15px;
-    color: teal;
-    font-size: 14px;
-    background: transparent;
-    border: 1px solid teal;
+.my_btn{
+    color: black;
+    text-align: center;
+    width: 250px;
+    font-family: monospace;
+    background-color: white;
+    border: 1px white solid;
+    border-radius: 10px;
+    letter-spacing: 1px;
+    font-weight: 200;
+    height: 30px;
+    border: 1px solid rgba(0,0,0,0.5);
+}
+
+.my_btn:hover{
+    box-shadow: 1px 2px 1px rgba(0,0,0,0.5);
     cursor: pointer;
 }
+
